@@ -478,7 +478,7 @@ class Application extends Container implements HttpKernelInterface, TerminableIn
     }
     public static function getBootstrapFile()
     {
-        return '/Users/rich/code/bbabros/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
+        return '/Users/rich/code/aisleorwindow/vendor/laravel/framework/src/Illuminate/Foundation' . '/start.php';
     }
     public function startExceptionHandling()
     {
@@ -10497,7 +10497,7 @@ class PrettyPageHandler extends Handler
                 return str_replace(array('%f', '%l'), array($file, $line), ini_get('xdebug.file_link_format'));
             };
         }
-        $this->searchPaths[] = '/Users/rich/code/bbabros/vendor/filp/whoops/src/Whoops/Handler' . '/../Resources';
+        $this->searchPaths[] = '/Users/rich/code/aisleorwindow/vendor/filp/whoops/src/Whoops/Handler' . '/../Resources';
     }
     public function handle()
     {

@@ -15,4 +15,4 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
-Route::get('/store/', StoreController@storeValues);
+Route::get('/store/', 'StoreController@storeValues');
